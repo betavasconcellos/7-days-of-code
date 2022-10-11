@@ -1,0 +1,23 @@
+.menu{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.menu__lista{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+nav > div > a {
+color: black;
+}
+
+nav > div > .ativo {
+  background-color: #8E2424;
+  color: white;
+  padding: .5rem;
+  border-radius: 8px;
+}
