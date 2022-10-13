@@ -5,29 +5,33 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./assets/css/reset.css">
+  <link rel="stylesheet" href="./assets/css/global.css">
   <link rel="stylesheet" href="./assets/css/cabecalho.css">
   <link rel="stylesheet" href="./assets/css/menu.css">
 
   <title>OptimusTech</title>
 </head>
 <body>
+  <nav class="menu">
+    <img src="./assets/img/logo.svg" alt="Logo da OptimusTech">
+    <ul class="menu__lista">
+      <li class="menu__item">Home</li>
+      <li class="menu__item">Produtos</li>
+      <li class="menu__item">Recursos</li>
+      <li class="menu__item">Sobre nós</li>
+    </ul>
+    <div>
+    <a href="#">Entrar</a>
+    <a class="ativo" href="#">Cadastrar</a>
+    </div>
+  </nav>
   <header class="cabecalho">
-    <nav class="menu">
-      <img src="./assets/img/logo.svg" alt="Logo da OptimusTech">
-      <ul class="menu__lista">
-        <li class="menu__item">Home</li>
-        <li class="menu__item">Produtos</li>
-        <li class="menu__item">Recursos</li>
-        <li class="menu__item">Sobre nós</li>
-      </ul>
-      <div>
-      <a href="#">Entrar</a>
-      <a class="ativo" href="#">Cadastrar</a>
-      </div>
-    </nav>
+    <h1 class="cabecalho__titulo">Sobre nós</h1>
+    <h2 class="cabecalho__subtitulo">Por que somos diferentes?</h2>
+    <p class="cabecalho__texto">Nós focamos nos detalhes de tudo que fazemos. Tudo para ajudar as empresas de todo o mundo a se concentrarem naquilo que é realmente importante para elas.</p>
   </header>
 </body>
 </html>
