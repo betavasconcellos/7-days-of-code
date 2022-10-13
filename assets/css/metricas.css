@@ -1,0 +1,28 @@
+.metricas{
+  align-items: initial;
+  display: flex;
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+  text-align: left;
+  gap: 2rem;
+  margin: 0 3%;
+}
+
+.metrica__valor{
+  color: var(--red);
+  font-weight: 600;
+  font-size: 3.75rem;
+  margin-bottom: 1rem;
+}
+
+.metrica__titulo{
+  font-weight: 500;
+  font-size: 1.25rem;
+  margin-bottom: .5rem;
+}
+
+.metrica__texto{
+  color: var(--gray);
+  font-weight: 400;
+  font-size: 1rem;
+}
