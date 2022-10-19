@@ -32,3 +32,43 @@
 .vagas__foto{
   width: calc(100vw - 6%);
 }
+
+.cards{
+  text-align: left;
+  margin: 2rem 10%;
+}
+
+.cards h3{
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+  font-size: 1.25rem;
+  margin-bottom: 2rem;
+}
+
+.card{
+  display:flex;
+  flex-direction: column;
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+  font-size: 1.25rem;
+  border: 1px solid var(--gray-200);
+  border-radius: 16px;
+  margin: 1rem;
+  padding: 1.5rem;
+  gap: 1.5rem;
+}
+
+.card__titulo{
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+  font-size: 1.25rem;
+}
+
+.card__informacao{
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+  font-size: 1rem;
+  color:var(--gray);
+  display:flex;
+  gap: 2rem;
+}
